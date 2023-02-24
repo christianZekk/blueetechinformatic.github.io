@@ -931,3 +931,11 @@ span {
 .foot-note a.fh5-link {
   margin-left: 0;
 }
+
+/* Mon css */
+.disabled{
+  cursor: default;
+  pointer-events: none;        
+  text-decoration: none;
+  color: grey;
+}
