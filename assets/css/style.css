@@ -948,3 +948,23 @@ span {
   border-radius: 5px;
   cursor: pointer;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+.grid-item video{
+  max-width: 100%;
+  height: auto;
+}
