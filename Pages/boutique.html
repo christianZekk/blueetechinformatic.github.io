@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Blue-etech</title>
+    <title>Boutique Blue-etech</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="../assets/css/boutique.css">
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap">
+    
 </head>
 <body>
     
@@ -103,11 +105,61 @@
         </nav>
     </div>
 </header> -->
-<header class="bg-dark py-5">
+<div class="container">
+    <div class="top-header d-none d-sm-flex justify-content-between align-items-center">
+        <div class="contact">
+            <a href="tel:+22899915677" class="tel"><i class="fa fa-phone" aria-hidden="true"></i>+22899915677</a>
+            <a href="mailto:info@yourmail.com"><i class="fa fa-envelope"
+                    aria-hidden="true"></i>ezeckiellossavihlontor@gmail.com</a>
+        </div>
+        <nav class="d-flex aic">
+            <!-- <a href="#" class="login disabled"><i class="fa fa-user" aria-hidden="true"></i>Login</a> -->
+            <ul class="nav social d-none d-md-flex">
+                <li><a href="https://www.facebook.com/btechinformatic/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://wa.me/90146415"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://t.me/+nbiHZBEU3vxiYTlk" target="_blank"><i class="fa fa-telegram"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Multipurpose"></a>
+        <div class="group d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <a class="login-icon d-sm-none" href="#"><i class="fa fa-user"></i></a>
+            <a class="cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <a class="search-icon d-none d-md-block" href="#"><i class="fa fa-search"></i></a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Accuiel</a></li>
+                <li class="nav-item"><a class="nav-link" href="Pages/service.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="Pages/boutique.html">Boutique</a></li>
+                <li class="nav-item"><a class="nav-link" href="Pages/propos.html">A propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="Pages/formation.html">Formation</a></li>
+                <li class="nav-item"><a class="nav-link" href="Pages/contact.html">Contactez-nous</a></li>
+            </ul>
+            <form class="bg-white search-form disabled" method="get" id="searchform">
+                <div class="input-group">
+                    <input class="field form-control " id="s" name="s" type="text" placeholder="Search">
+                    <span class="input-group-btn">
+                        <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+                            value="Search">
+                    </span>
+                </div>
+            </form>
+        </div>
+    </nav>
+</div>
+<header class="bg-dark py-5" style="background: url(../assets/images/boutik.jpeg); background-size:cover; background-repeat: no-repeat;">
     <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">Boutique</h1>
-            <p class="lead fw-normal text-white-50 mb-0">Bienvenue au stand de produits</p>
+            <h1 class="display-4 fw-bolder" style="color: rgb(255, 63, 63);">Boutique</h1>
+            <h2 style="color: rgb(255, 63, 63); font-family: poppins;">Bienvenue au stand de produits</h2>
+            
         </div>
     </div>
       <!-- Floating logo whatsapp -->
@@ -157,8 +209,10 @@
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             <div class="col mb-5">
                 <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
                     <!-- Product image-->
-                    <img class="card-img-top" src="../images/ps4.png" alt="..." />
+                    <img class="card-img-top" src="../images/ps4.png" alt="ps4 console" />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -167,189 +221,181 @@
                             <!-- Détail -->
                             <span>Ps4 complet HHD 500Go</span>
                             <!-- Product price-->
-                            200 000 XOF
+                            <hr>
+                            <b><span>200 000 F cfa</span></b>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-primary mt-auto" href="#">Acheter</a></div>
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
                     </div>
                 </div>
             </div>
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
                     <!-- Product image-->
-                    <img class="card-img-top" src="../images/ps2.jpg" alt="..." />
+                    <img class="card-img-top" src="../images/ps2.jpg" alt="PS2 console" />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Special Item</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
+                            <h5 class="fw-bolder">PS2 FAT</h5>
+                            <!-- Détail -->
+                            <span>Ps2 complet Fat Avec Clé USB 8Go</span>
                             <!-- Product price-->
-                            <span class="text-muted text-decoration-line-through">$20.00</span>
-                            $18.00
+                            <hr>
+                            <b><span>35 000 F cfa</span></b>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
                     </div>
                 </div>
             </div>
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
                     <!-- Product image-->
                     <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Sale Item</h5>
+                            <h5 class="fw-bolder">Manette PS2 </h5>
+                            <!-- Détail -->
+                            <span>Manette Ps2 venu Original</span>
                             <!-- Product price-->
-                            <span class="text-muted text-decoration-line-through">$50.00</span>
-                            $25.00
+                            <hr>
+                            <b><span>5 000 F cfa</span></b>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Popular Item</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
-                            <!-- Product price-->
-                            $40.00
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
                     </div>
                 </div>
             </div>
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
                     <!-- Product image-->
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                    <img class="card-img-top" src="../images/ps2.jpg" alt="PS2 console" />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Sale Item</h5>
+                            <h5 class="fw-bolder">PS2 FAT</h5>
+                            <!-- Détail -->
+                            <span>Ps2 complet Fat Avec Clé USB 8Go</span>
                             <!-- Product price-->
-                            <span class="text-muted text-decoration-line-through">$50.00</span>
-                            $25.00
+                            <hr>
+                            <b><span>35 000 F cfa</span></b>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Fancy Product</h5>
-                            <!-- Product price-->
-                            $120.00 - $280.00
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
                     </div>
                 </div>
             </div>
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
                     <!-- Product image-->
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                    <img class="card-img-top" src="../images/ps2.jpg" alt="PS2 console" />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Special Item</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
+                            <h5 class="fw-bolder">PS2 FAT</h5>
+                            <!-- Détail -->
+                            <span>Ps2 complet Fat Avec Clé USB 8Go</span>
                             <!-- Product price-->
-                            <span class="text-muted text-decoration-line-through">$20.00</span>
-                            $18.00
+                            <hr>
+                            <b><span>35 000 F cfa</span></b>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
                     </div>
                 </div>
             </div>
             <div class="col mb-5">
                 <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
                     <!-- Product image-->
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                    <img class="card-img-top" src="../images/ps2.jpg" alt="PS2 console" />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Popular Item</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
+                            <h5 class="fw-bolder">PS2 FAT</h5>
+                            <!-- Détail -->
+                            <span>Ps2 complet Fat Avec Clé USB 8Go</span>
                             <!-- Product price-->
-                            $40.00
+                            <hr>
+                            <b><span>35 000 F cfa</span></b>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
+                    <!-- Product image-->
+                    <img class="card-img-top" src="../images/ps2.jpg" alt="PS2 console" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">PS2 FAT</h5>
+                            <!-- Détail -->
+                            <span>Ps2 complet Fat Avec Clé USB 8Go</span>
+                            <!-- Product price-->
+                            <hr>
+                            <b><span>35 000 F cfa</span></b>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">En Vente</div>
+                    <!-- Product image-->
+                    <img class="card-img-top" src="../images/ps2.jpg" alt="PS2 console" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">PS2 FAT</h5>
+                            <!-- Détail -->
+                            <span>Ps2 complet Fat Avec Clé USB 8Go</span>
+                            <!-- Product price-->
+                            <hr>
+                            <b><span>35 000 F cfa</span></b>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto" href="https://wa.me/99915677">Acheter</a></div>
                     </div>
                 </div>
             </div>
@@ -398,35 +444,40 @@
                             <a href="tel:+22890146415"> +228 99 91 56 77 / 90 14 64 15</a>
                         </div>
                     </div>
-                   
                 </div>
                 <div class="col-md-6 col-xl-3">
                     <div class="container">
-                        <h2>Contactez-nous</h2>
+                        <h2 class="text-white">Contactez-nous sur whatsapp</h2>
                         <form>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label for="name">Nom</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter name">
                         </div>
                         <div class="form-group">
                             <label for="email">Address Email </label>
                             <input type="email" class="form-control" id="email" placeholder="Enter email">
-                        </div>
+                        </div> -->
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <label for="message text-warning">Message</label>
+                            <textarea class="form-control" id="msg" placeholder="Exprimez-vous ici!" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
-                        </form>
+                        <a class="btn btn-primary"  onclick="sendWa()" target="_blank">Envoyer</a>
+                        
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Widgets End -->
-    
+    <br><br>
 </footer>
-
+<script>
+    function sendWa(){
+        var message = document.getElementById("msg").value
+        location.href  = "https://wa.me/90146415?text=" + message
+    }
+</script>
 <!--jQuery-->
 <script src="../assets/js/jquery-3.3.1.js"></script>
 <!--Plugins-->
@@ -437,9 +488,5 @@
 <script src="../assets/js/lightgallery-all.min.js"></script>
 <!--Template Script-->
 <script src="../assets/js/main.js"></script>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="../assets/js/boutique.js"></script>
 </body>
 </html>
